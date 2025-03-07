@@ -44,5 +44,6 @@ h1 {
      .nav-responsive{
         display: flex;
         justify-content: end;
+        margin-right: 30px;
     }
 }
