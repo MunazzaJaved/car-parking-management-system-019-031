@@ -17,23 +17,23 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 30px;">
-                <div class="nav-responsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="../../view/guest/home.php">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="../../view/guest/about.php">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="../../view/guest/login.php">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="../../view/guest/Register.php">Register</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse nav-responsive" id="navbarNav">
+                <!-- <div class="nav-responsive"> -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../../view/guest/home.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../../view/guest/about.php">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../../view/guest/login.php">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../../view/guest/Register.php">Register</a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
