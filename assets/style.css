@@ -38,7 +38,11 @@ h1 {
 /* Responsive Design */
 @media (max-width: 600px) {
     .btn {
-        width: 100%; /* Buttons take full width on small screens */
+        width: 60%; /* Buttons take full width on small screens */
         text-align: center;
+    }
+     .nav-responsive{
+        display: flex;
+        justify-content: end;
     }
 }
