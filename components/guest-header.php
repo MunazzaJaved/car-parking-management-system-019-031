@@ -17,7 +17,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 20px;">
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 30px;">
                 <div class="nav-responsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
