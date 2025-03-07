@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+h1 {
+    padding: 30px;
+    color: #333;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px;
+    flex-wrap: wrap; /* wrapping on smaller screens */
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    /* transition: background 0.3s ease-in-out; */
+
+}
+
+.btn:hover {
+    background-color: #0056b3;
+ 
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    .btn {
+        width: 100%; /* Buttons take full width on small screens */
+        text-align: center;
+    }
+}

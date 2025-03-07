@@ -1,0 +1,10 @@
+/* Custom CSS for centering the form */
+.container {
+    max-width: 800px;
+}
+
+/* Adjust the form width to 50% */
+.card {
+    width: 50%;
+    margin: auto;
+}

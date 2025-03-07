@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    /* background: white; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #1d1f21;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.btn {
+    margin: 2px;
+}
+
+
