@@ -13,13 +13,14 @@
     <header class="bg-dark shadow-sm">
         <nav class="navbar navbar-expand-lg navbar-dark container">
             <a class="navbar-brand text-white">Online Parking</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- d-flex justify-content-end -->
+            <div class="collapse navbar-collapse nav-responsive" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../../view/guest/about.php">About Us</a>
+                        <a class="nav-link text-white" href="../../view/customer/about.php">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="../../view/customer/customer-dashboard.php">View Free Slots</a>

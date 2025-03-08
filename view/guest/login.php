@@ -1,6 +1,6 @@
-<?php 
+<?php
 // Include the guest header file for UI consistency
-include('../../components/guest-header.php'); 
+include('../../components/guest-header.php');
 
 // Start session to handle error messages
 session_start();
@@ -14,7 +14,7 @@ session_start();
         <div class="card p-4 shadow-sm">
             <h2 class="text-center">Login</h2>
 
-            <?php 
+            <?php
             // Check if an error message exists in session
             if (isset($_SESSION['error_message'])): ?>
                 <script>
@@ -23,20 +23,20 @@ session_start();
                         alert("<?php echo $_SESSION['error_message']; ?>");
                     });
                 </script>
-                <?php 
+                <?php
                 // Remove the error message after displaying it
-                unset($_SESSION['error_message']); 
+                unset($_SESSION['error_message']);
                 ?>
             <?php endif; ?>
 
             <!-- Login Form -->
             <form action="../../controller/UserController.php?action=login" method="POST" autocomplete="off">
                 <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
+                    <label for="email" class="form-label" style="display:flex; ">Email</label>
                     <input type="email" name="email" id="email" class="form-control" required autocomplete="off">
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Password</label>
+                    <label for="password" class="form-label" style="display:flex; ">Password</label>
                     <input type="password" name="password" id="password" class="form-control" required autocomplete="new-password">
                 </div>
                 <div class="d-flex justify-content-center">

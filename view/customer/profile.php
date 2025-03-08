@@ -20,7 +20,9 @@ $user = $userModel->getUserById($userId);
 ?>
 
 <div class="container mt-5 mb-5">
-    <h1>My Profile</h1>
+    <center>
+        <h1>My Profile</h1>
+    </center>
     <form method="POST" action="">
         <!-- Name Field -->
         <div class="mb-3">

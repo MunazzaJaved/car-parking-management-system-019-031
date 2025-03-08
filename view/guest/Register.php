@@ -5,7 +5,7 @@ include('../../components/guest-header.php');
 // Start session to handle error messages
 session_start();
 ?>
-
+<link rel="stylesheet" href="../../assets/style.css">
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
     <div class="col-10 col-md-8 col-lg-6">
         <div class="card p-4 shadow-sm">

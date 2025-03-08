@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-/*     text-align: center; */
+    text-align: center;
     background-color: #f4f4f4;
 }
 h1 {
@@ -36,7 +36,7 @@ h1 {
  
 }
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .btn {
         width: 60%; /* Buttons take full width on small screens */
         text-align: center;
@@ -44,7 +44,7 @@ h1 {
     li{
         width: 90%;
     }
-     .nav-responsive{
+    .nav-responsive{
         display: flex;
         justify-content: end;
         margin-right: 30px;

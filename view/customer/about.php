@@ -1,4 +1,4 @@
-<?php include('../../components/guest-header.php'); // Include guest header 
+<?php include('../../components/customer-header.php'); // Include guest header 
 ?>
 <link rel="stylesheet" href="../../assets/nav-style.css">
 <style>
@@ -21,7 +21,7 @@
     </div>
 
     <center>
-        <h1>About Us</h1>
+        <h1>Hello! our valuable customer </h1>
     </center>
 
     <!-- Section: Strategic Intent -->
