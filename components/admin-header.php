@@ -11,8 +11,8 @@
 
 <body class="d-flex flex-column min-vh-100">
     <header class="bg-dark shadow-sm">
-        <nav class="navbar navbar-expand-lg navbar-dark container">
-            <a class="navbar-brand text-white" href="/bookstore-app/index.php">Online Parking</a>
+        <nav class="navbar navbar-expand-lg navbar-dark container-fluid">
+            <a class="navbar-brand text-white" href="/bookstore-app/index.php">&nbsp; Online Parking</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
