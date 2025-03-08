@@ -41,6 +41,9 @@ h1 {
         width: 60%; /* Buttons take full width on small screens */
         text-align: center;
     }
+    li{
+        width: 90%;
+    }
      .nav-responsive{
         display: flex;
         justify-content: end;
