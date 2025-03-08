@@ -34,7 +34,7 @@
                         <a class="nav-link text-white" href="../../view/admin/live_parking.php">Live Status</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="../../view/customer/profile.php">Profile</a>
+                        <a class="nav-link text-white" href="../../view/admin/profile.php">Profile</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="../../view/guest/logout.php">Logout</a>
