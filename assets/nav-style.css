@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+    li{
+        width: 90%;
+    }
+    .nav-responsive{
+        display: flex;
+        justify-content: end !important;
+        margin-right: 30px;
+    }
+}
